@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+  color: #ffb604;
+}
+
+.lineup {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    list-style-type: none;
+    color: #fff;
+    background-color: #19191A;
+    max-width: 500px;
+  }
+
+  .lineup-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  
+  .lineup ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .lineup ul li {
+   padding: 5px;
+   list-style-type: none;
+   box-shadow: 0 1px 0 #222;
+   border-bottom: 2px solid #222;
+   background-color: #262626;
+  }
+  
+  .player {
+    width: 60%;
+  }
+
+  .position {
+    width: 40%;
+  }
+ 

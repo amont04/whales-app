@@ -1,0 +1,64 @@
+.roster {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    list-style-type: none;
+    flex-direction: column;
+  }
+
+  .roster-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  
+  .roster a {
+      text-decoration: none;
+      color: #fff;
+  }
+
+  .roster ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .roster ul:before {
+      color: red !important;
+  }
+  .roster ul li {
+   padding: 5px;
+   list-style-type: none;
+  }
+
+  .player-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .player-card h1 {
+      margin-bottom: 10px;
+      font-size: 20px;
+      color: #fff;
+  }
+
+  .player-card .number {
+      color: #ffb604;
+      font-size: 50px;
+      font-weight: 800;
+  }
+
+  .player-card h2 {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #fff;
+  }
+
+  .btn {
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      margin-top: 25px;
+      color:#ffb604;
+  }
